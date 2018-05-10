@@ -1,0 +1,16 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "Test webpack ProgressPlugin",
+  "scripts": {
+    "build": "node --inspect ./node_modules/webpack/bin/webpack.js --progress --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hard-source-webpack-plugin": "^0.6.9",
+    "lodash": "^4.17.10",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
+  }
+}
